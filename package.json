@@ -1,0 +1,23 @@
+{
+  "name": "preentrega-3.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrijo87/ALA-InteriorDesign.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrijo87/ALA-InteriorDesign/issues"
+  },
+  "homepage": "https://github.com/mrijo87/ALA-InteriorDesign#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
