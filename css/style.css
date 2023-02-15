@@ -486,4 +486,66 @@ input[type=checkbox]:checked {
   margin: 10rem 2.5rem 2.5rem 2.5rem;
 }
 
+.contenedorError {
+  margin: 20rem 2.5rem 2.5rem 2.5rem;
+  text-align: center;
+}
+.contenedorError p {
+  margin-top: 4rem;
+}
+
+ul li {
+  list-style: none;
+}
+ul li a:hover {
+  color: rgb(203, 123, 75);
+}
+
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+  .footer-Container {
+    padding: 6rem 8rem;
+  }
+  .mainContent {
+    padding: 2rem;
+  }
+  .home-link {
+    display: none;
+  }
+  .mainContent-Contact {
+    margin: 4rem 1rem;
+  }
+  .section5_image {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .footer-Container {
+    padding: 6rem 8rem;
+  }
+  .section1 {
+    padding-top: 2.5rem;
+  }
+  #parSection1 {
+    margin-top: 0rem;
+  }
+  .ctaSection1 {
+    margin-top: 0rem;
+  }
+  .contSection2 {
+    padding: 10rem 4rem 6rem 4rem;
+  }
+  .contSection3 {
+    text-align: center;
+    padding-top: 18rem;
+  }
+  .home-link {
+    display: none;
+  }
+  .mainContent-Contact {
+    margin: 4rem 16rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

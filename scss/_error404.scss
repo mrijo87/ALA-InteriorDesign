@@ -1,0 +1,18 @@
+.contenedorError {
+  margin: 20rem 2.5rem 2.5rem 2.5rem;
+  text-align: center;
+  p {
+    margin-top: 4rem;
+  }
+}
+
+ul {
+  li {
+    list-style: none;
+    a {
+      &:hover {
+        color: rgb(203, 123, 75);
+      }
+    }
+  }
+}
