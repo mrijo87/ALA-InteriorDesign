@@ -1,0 +1,13 @@
+@mixin h1yh2($fuente, $estilo, $peso, $color) {
+  font-family: $fuente;
+  font-style: $estilo;
+  font-weight: $peso;
+  color: $color;
+}
+
+@mixin h3h4yp($fuente, $estilo, $peso, $color) {
+  font-family: $fuente;
+  font-style: $estilo;
+  font-weight: $peso;
+  color: $color;
+}
