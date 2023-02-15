@@ -414,4 +414,49 @@ a {
   background-color: rgb(203, 123, 75);
 }
 
+.mainContent-Contact {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
+}
+
+.section1Contact {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.parSection1Contact {
+  margin-top: 2rem;
+}
+
+.form-Contact {
+  margin-top: 2rem;
+}
+
+.form-floating {
+  margin-top: 2rem;
+}
+
+.form-select {
+  margin-top: 1rem;
+}
+
+.form-button {
+  margin-top: 4rem;
+}
+
+.form-check {
+  padding-top: 2.5rem;
+}
+
+input[type=checkbox]:checked {
+  box-shadow: none;
+  background-color: black;
+  border-color: black;
+}
+
+input[type=checkbox]:checked {
+  box-shadow: none;
+}
+
 /*# sourceMappingURL=style.css.map */
