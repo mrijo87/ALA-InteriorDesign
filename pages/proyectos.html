@@ -11,7 +11,7 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -22,16 +22,16 @@
   </head>
 
   <body>
-    <div class="container.fluid wrapHeader">
+    <div class="wrapHeader">
       <header>
         <!--navbar-->
         <nav
           class="navbar fixed-top navbar-expand-md navbar-custom navContainer"
         >
           <div class="container-fluid navContent">
-            <a class="navbar-brand" href="./index.html">
+            <a class="navbar-brand" href="../index.html">
               <img
-                src="./assets/images/svg/Logo.svg"
+                src="../assets/images/svg/Logo.svg"
                 width="70"
                 alt="Logo de ALA Diseno de Interiores"
               />
@@ -57,7 +57,7 @@
                   <a
                     class="nav-link active"
                     aria-current="page"
-                    href="./pages/servicios.html"
+                    href="./servicios.html"
                     >SERVICIOS</a
                   >
                 </li>
@@ -65,7 +65,7 @@
                   <a
                     class="nav-link active"
                     aria-current="page"
-                    href="./pages/proyectos.html"
+                    href="./proyectos.html"
                     >PROYECTOS</a
                   >
                 </li>
@@ -73,7 +73,7 @@
                   <a
                     class="nav-link active"
                     aria-current="page"
-                    href="./pages/about.html"
+                    href="./about.html"
                     >SOBRE MÍ</a
                   >
                 </li>
@@ -81,7 +81,7 @@
                   <a
                     class="nav-link active"
                     aria-current="page"
-                    href="./pages/contacto.html"
+                    href="./contacto.html"
                     >CONTACTO</a
                   >
                 </li>
@@ -92,104 +92,74 @@
       </header>
     </div>
 
+    <!--Aca termina el header y empieza el main-->
     <main>
-      <div class="container.fluid mainContent">
-        <div class="row section1 text-center">
-          <h1>Convertí tu hogar en <i>tu lugar favorito</i> en el mundo.</h1>
-          <p id="parSection1" class="text-center">
-            Crear un espacio que te inspire, refleje tu personalidad y se adapte
-            a tu estilo de vida es posible. Con nuestra ayuda transformá tu
-            espacio en el hogar que siempre soñaste.
-          </p>
-          <a class="ctaSection1" href="./pages/servicios.html">
-            <button class="ctaSection1 btn">¡QUIERO SABER MÁS!</button>
-          </a>
-        </div>
-        <div class="row section2">
-          <div class="col-xl-6 section2_image">
+      <section class="contenedorIntroPortfolio">
+        <h1>Algunos de los ultimos proyectos</h1>
+        <p class="pIntro">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+          dignissimos deleniti unde error? Quidem numquam tempore consequatur
+          nesciunt aliquam? Facere numquam voluptas quidem nemo quasi cupiditate
+          atque sit in corporis!
+        </p>
+      </section>
+      <section class="portfolioContent">
+        <div class="row">
+          <div class="column" class="box">
             <img
-              src="./assets/images/jpeg/imagenpinterestprueba.jpg"
-              alt="Tablero de pinterest"
+              src="./../assets/images/jpeg/portfolio.jpg"
+              alt="Diseño de Interiores"
+              style="width: 100%"
             />
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
-          <div class="col-xl-6 contSection2">
-            <h2 class="text-center h2Section2">
-              ¿Tenés cientos de pines guardados con ideas para decorar tu casa
-              pero no sabes por dónde empezar?
-            </h2>
-            <nav class="section2Nav">
-              <ul class="section2NavLinks">
-                <li class="liSection2">
-                  ¿Querés comprar objetos o muebles para renovar la deco de tu
-                  casa, pero no sabés cómo elegirlos para que lograr la casa que
-                  siempre soñaste?
-                </li>
-                <li class="liSection2">
-                  ¿Tenés espacios en casa que no sabes cómo diseñar para
-                  aprovecharlos al máximo?
-                </li>
-                <li class="liSection2">
-                  ¿Tenés objetos que compraste en algún momento, pero no sabes
-                  donde ponerlos?
-                </li>
-              </ul>
-            </nav>
+          <div class="column" class="box">
+            <img
+              src="./../assets/images/jpeg/portfolio.jpg"
+              alt="Diseño de Interiores"
+              style="width: 100%"
+            />
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="column" class="box">
+            <img
+              src="./../assets/images/jpeg/portfolio.jpg"
+              alt="Diseño de Interiores"
+              style="width: 100%"
+            />
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
-        <div class="row section3">
-          <div class="col-xl-6 contSection3">
-            <h2 class="h2Section3">
-              ¿Y si te dijera que podés tener la casa que siempre soñaste sin
-              gastar una fortuna?
-            </h2>
-            <p id="parSection3">
-              Ambientes que transmitan bienestar, confort y felicidad. Rincones
-              que te inviten a quedarte en casa y disfrutar de tu espacio.
-            </p>
+        <div class="row">
+          <div class="column" class="box">
+            <img
+              src="./../assets/images/jpeg/portfolio.jpg"
+              alt="Diseño de Interiores"
+              style="width: 100%"
+            />
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
-          <div class="col-xl-6 section3_image">
-            <img src="./assets/images/jpeg/section3 image.jpg" />
+          <div class="column" class="box">
+            <img
+              src="./../assets/images/jpeg/portfolio.jpg"
+              alt="Diseño de Interiores"
+              style="width: 100%"
+            />
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
-        </div>
-        <div class="row section4">
-          <div class="contSect4 col-xl-6">
-            <h2 class="h2Section4">¡Con ALA es posible!</h2>
-            <p class="h3Section4">
-              Te ayudamos a crear espacios únicos que tengan un perfecto
-              equilibrio entre la estética y la funcionalidad, adaptado a tus
-              gustos, estilo de vida y necesidades.
-            </p>
-            <a href="./pages/about.html" class="aSection4"
-              >Conocé mi historia</a
-            >
+          <div class="column" class="box">
+            <img
+              src="./../assets/images/jpeg/portfolio.jpg"
+              alt="Diseño de Interiores"
+              style="width: 100%"
+            />
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
-        <div class="row section5">
-          <div class="col-xl-6 contSection5">
-            <h2 class="h2Section5">
-              ¿Estás lista para empezar a transformar tu casa en el lugar que
-              siempre soñaste?
-            </h2>
-            <p class="h3Section5 lead">
-              Llegó el momento de dejar de soñar y empezar a crear el hogar que
-              siempre quisiste.
-            </p>
-            <p class="parSection5">
-              Va a ser un placer acompañarte en esta aventura. Descubrí las
-              propuestas que armé especialmente para que se adapten a tus
-              necesidades y presupuesto.
-            </p>
-            <a class="ctaSection5" href="./pages/servicios.html">
-              <button class="btn ctaSection5">¡ESTOY LISTA!</button>
-            </a>
-          </div>
-          <div class="col-xl-6 section5_image">
-            <img src="./assets/images/jpeg/Section5.png" />
-          </div>
-        </div>
-      </div>
+      </section>
     </main>
-
+    <!--Aca termina el main y empieza el footer-->
+    <!--codigo de footer-->
     <footer class="footer-custom">
       <div class="container footer-Container">
         <div class="row">
@@ -201,7 +171,7 @@
               <picture
                 ><img
                   class="logo-Footer"
-                  src="./assets/images/svg/Logoblanco.svg"
+                  src="../assets/images/svg/Logoblanco.svg"
                   alt="Logo ALA Diseño de Interiores"
               /></picture>
             </div>
@@ -299,27 +269,23 @@
               <div class="col2">
                 <ul class="col2Links">
                   <li color="white">
-                    <a class="col2LinksLi a" href="./index.html">Home</a>
+                    <a class="col2LinksLi a" href="../index.html">Home</a>
                   </li>
                   <li class="col2LinksLi">
-                    <a class="col2LinksLi a" href="./pages/servicios.html"
+                    <a class="col2LinksLi a" href="./servicios.html"
                       >Servicios</a
                     >
                   </li>
                   <li class="col2LinksLi">
-                    <a class="col2LinksLi a" href="./pages/proyectos.html"
+                    <a class="col2LinksLi a" href="./proyectos.html"
                       >Proyectos</a
                     >
                   </li>
                   <li class="col2LinksLi">
-                    <a class="col2LinksLi a" href="./pages/about.html"
-                      >Sobre mi</a
-                    >
+                    <a class="col2LinksLi a" href="./about.html">Sobre mi</a>
                   </li>
                   <li class="col2LinksLi">
-                    <a class="col2LinksLi a" href="./pages/contacto.html"
-                      >Contacto</a
-                    >
+                    <a class="col2LinksLi a" href="./contacto.html">Contacto</a>
                   </li>
                 </ul>
               </div>
