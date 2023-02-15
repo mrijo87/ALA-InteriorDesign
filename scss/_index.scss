@@ -1,0 +1,112 @@
+.wrapHeader {
+  background-image: url(../assets/images/jpeg/imagencabecera.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 40%;
+  height: 100vh;
+}
+
+.mainContent {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section1 {
+  margin: 2.5rem 2.5rem 0 2.5rem;
+  min-height: 25rem;
+}
+
+#parSection1 {
+  margin-top: 1rem;
+}
+
+.ctaSection1 {
+  margin-top: 1rem;
+}
+
+.section2 {
+  margin: 2.5rem 2.5rem 0 2.5rem;
+  overflow: hidden;
+}
+
+.contSection2 {
+  padding-top: 2.5rem;
+}
+
+.section2_image {
+  display: flex;
+  justify-content: center;
+}
+
+.section2Nav {
+  margin-top: 2rem;
+}
+
+.section3 {
+  margin: 2.5rem;
+}
+
+.contSection3 {
+  text-align: center;
+}
+
+#parSection3 {
+  margin-top: 2.5rem;
+}
+
+.section3_image {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.section4 {
+  font-display: flex;
+  justify-content: center;
+  background-image: url(../assets/images/jpeg/section\ 4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.contSect4 {
+  padding: 12rem 2.5rem;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.aSection4 {
+  color: rgb(203, 123, 75);
+}
+
+.section5 {
+  margin: 2.5rem 2.5rem 0 2.5rem;
+}
+
+.contSection5 {
+  text-align: center;
+}
+
+.h2Section5 {
+  margin-top: 2.5rem;
+}
+
+.h3Section5 {
+  margin-top: 2.5rem;
+}
+
+.parSection5 {
+  padding-top: 2.5rem;
+}
+
+.section5_image {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  padding-bottom: 2.5rem;
+}
+
+.ctaSection5 {
+  margin-top: 1.5rem;
+}

@@ -1,0 +1,135 @@
+.footer-custom {
+  background-color: #1e1e1e;
+}
+
+footer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.footer-Container {
+  padding: 6rem 5rem;
+}
+
+.line-footer {
+  background-color: white;
+  height: 1px;
+  margin-top: 2rem;
+}
+
+.logo-Footer {
+  height: 43px;
+}
+
+.footerContent {
+  margin-top: 60px;
+}
+
+.column-footer {
+  margin-top: 2rem;
+}
+
+.mail {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contact-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.telephone {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.phoneNumber {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.socialmedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+.col2Links {
+  list-style: none;
+  padding: 0;
+  li {
+    margin-top: 5px;
+    color: #ffffff;
+    a {
+      transition: all 0.3s ease 0s;
+      &:hover {
+        color: rgb(203, 123, 75);
+      }
+    }
+  }
+}
+
+.col3Links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  li {
+    margin-top: 5px;
+    color: #ffffff;
+    a {
+      transition: all 0.3s ease 0s;
+      &:hover {
+        color: rgb(203, 123, 75);
+      }
+    }
+  }
+}
+
+.newsletterFooter {
+  color: white;
+  text-decoration: none;
+  margin: 0rem 0rem;
+}
+
+.inputFooter {
+  border-bottom: 2px solid white;
+  width: 225px;
+  height: 40px;
+  color: white;
+  background-color: #1e1e1e;
+  margin: 1rem 0;
+}
+
+#inputSubmit {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  padding: 10px 33.5px;
+  border-radius: 25px;
+}
+
+.copyright-footer {
+  color: white;
+  background-color: #1e1e1e;
+}
