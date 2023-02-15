@@ -459,4 +459,38 @@ input[type=checkbox]:checked {
   box-shadow: none;
 }
 
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+  .footer-Container {
+    padding: 6rem 8rem;
+  }
+  .mainContent {
+    padding: 2rem;
+  }
+  .home-link {
+    display: none;
+  }
+  .mainContent-Contact {
+    margin: 4rem 1rem;
+  }
+  .section5_image {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .footer-Container {
+    padding: 6rem 8rem;
+  }
+  .contSection2 {
+    padding: 8rem 4rem 6rem 4rem;
+  }
+  .home-link {
+    display: none;
+  }
+  .mainContent-Contact {
+    margin: 4rem 16rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
