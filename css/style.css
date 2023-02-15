@@ -477,4 +477,13 @@ input[type=checkbox]:checked {
   width: 100px;
 }
 
+.contenedorServicios {
+  margin: 10rem 2.5rem 2.5rem 2.5rem;
+  text-align: center;
+}
+
+.contenedorAbout {
+  margin: 10rem 2.5rem 2.5rem 2.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
