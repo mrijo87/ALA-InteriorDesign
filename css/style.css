@@ -81,6 +81,7 @@ footer {
 }
 .col2Links li a {
   transition: all 0.3s ease 0s;
+  color: #ffffff;
 }
 .col2Links li a:hover {
   color: rgb(203, 123, 75);
@@ -98,6 +99,7 @@ footer {
 }
 .col3Links li a {
   transition: all 0.3s ease 0s;
+  color: #ffffff;
 }
 .col3Links li a:hover {
   color: rgb(203, 123, 75);
@@ -459,38 +461,20 @@ input[type=checkbox]:checked {
   box-shadow: none;
 }
 
-@media screen and (min-width: 767px) and (max-width: 1200px) {
-  .footer-Container {
-    padding: 6rem 8rem;
-  }
-  .mainContent {
-    padding: 2rem;
-  }
-  .home-link {
-    display: none;
-  }
-  .mainContent-Contact {
-    margin: 4rem 1rem;
-  }
-  .section5_image {
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-  }
+.contenedorIntroPortfolio {
+  margin-top: 10rem;
+  text-align: center;
 }
-@media (min-width: 1200px) {
-  .footer-Container {
-    padding: 6rem 8rem;
-  }
-  .contSection2 {
-    padding: 8rem 4rem 6rem 4rem;
-  }
-  .home-link {
-    display: none;
-  }
-  .mainContent-Contact {
-    margin: 4rem 16rem;
-  }
+
+.carousel {
+  margin: 2.5rem 2.5rem 8rem 2.5rem;
+}
+
+.carousel-indicators {
+  position: static;
+}
+.carousel-indicators button.thumbnail {
+  width: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

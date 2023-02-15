@@ -22,7 +22,7 @@
   </head>
 
   <body>
-    <div class="wrapHeader">
+    <div>
       <header>
         <!--navbar-->
         <nav
@@ -95,68 +95,115 @@
     <!--Aca termina el header y empieza el main-->
     <main>
       <section class="contenedorIntroPortfolio">
-        <h1>Algunos de los ultimos proyectos</h1>
-        <p class="pIntro">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-          dignissimos deleniti unde error? Quidem numquam tempore consequatur
-          nesciunt aliquam? Facere numquam voluptas quidem nemo quasi cupiditate
-          atque sit in corporis!
-        </p>
+        <h1 class="h1_proyectos">Portfolio</h1>
       </section>
-      <section class="portfolioContent">
-        <div class="row">
-          <div class="column" class="box">
+      <!--Aca empieza el carousel-->
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
             <img
-              src="./../assets/images/jpeg/portfolio.jpg"
-              alt="Diseño de Interiores"
-              style="width: 100%"
+              src="../assets/images/jpeg/carousel/carousel1.jpg"
+              class="d-block w-100"
+              alt="..."
             />
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
-          <div class="column" class="box">
+          <div class="carousel-item">
             <img
-              src="./../assets/images/jpeg/portfolio.jpg"
-              alt="Diseño de Interiores"
-              style="width: 100%"
+              src="../assets/images/jpeg/carousel/carousel2.jpg"
+              class="d-block w-100"
+              alt="..."
             />
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
-          <div class="column" class="box">
+          <div class="carousel-item">
             <img
-              src="./../assets/images/jpeg/portfolio.jpg"
-              alt="Diseño de Interiores"
-              style="width: 100%"
+              src="../assets/images/jpeg/carousel/carousel3.jpg"
+              class="d-block w-100"
+              alt="..."
             />
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../assets/images/jpeg/carousel/carousel4.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
           </div>
         </div>
-        <div class="row">
-          <div class="column" class="box">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active thumbnail"
+            aria-current="true"
+            aria-label="Slide 1"
+          >
             <img
-              src="./../assets/images/jpeg/portfolio.jpg"
-              alt="Diseño de Interiores"
-              style="width: 100%"
+              src="../assets/images/jpeg/carousel/carousel1.jpg"
+              class="d-block w-100"
+              alt="..."
             />
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <div class="column" class="box">
+          </button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            class="thumbnail"
+            aria-label="Slide 2"
+          >
             <img
-              src="./../assets/images/jpeg/portfolio.jpg"
-              alt="Diseño de Interiores"
-              style="width: 100%"
+              src="../assets/images/jpeg/carousel/carousel2.jpg"
+              class="d-block w-100"
+              alt="..."
             />
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <div class="column" class="box">
+          </button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            class="thumbnail"
+            aria-label="Slide 3"
+          >
             <img
-              src="./../assets/images/jpeg/portfolio.jpg"
-              alt="Diseño de Interiores"
-              style="width: 100%"
+              src="../assets/images/jpeg/carousel/carousel3.jpg"
+              class="d-block w-100"
+              alt="..."
             />
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
+          </button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            class="thumbnail"
+            aria-label="Slide 4"
+          >
+            <img
+              src="../assets/images/jpeg/carousel/carousel4.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </button>
         </div>
-      </section>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--Aca termina el carousel-->
     </main>
     <!--Aca termina el main y empieza el footer-->
     <!--codigo de footer-->
