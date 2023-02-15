@@ -487,7 +487,7 @@ input[type=checkbox]:checked {
 }
 
 .contenedorError {
-  margin: 20rem 2.5rem 2.5rem 2.5rem;
+  margin: 19rem 2.5rem 2.5rem 2.5rem;
   text-align: center;
 }
 .contenedorError p {
