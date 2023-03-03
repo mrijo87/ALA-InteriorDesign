@@ -12,7 +12,7 @@
 }
 
 .section1 {
-  margin: 2.5rem 2.5rem 0 2.5rem;
+  margin-top: 2.5rem;
   min-height: 25rem;
 }
 
@@ -25,12 +25,16 @@
 }
 
 .section2 {
-  margin: 2.5rem 2.5rem 0 2.5rem;
+  margin-top: 2.5rem;
   overflow: hidden;
 }
 
 .contSection2 {
   padding-top: 2.5rem;
+}
+
+#parSection2 {
+  margin-top: 2.5rem;
 }
 
 .section2_image {
@@ -43,7 +47,7 @@
 }
 
 .section3 {
-  margin: 2.5rem;
+  margin-top: 2.5rem;
 }
 
 .contSection3 {
@@ -68,12 +72,17 @@
   background-size: cover;
   height: 70vh;
   overflow: hidden;
+  margin-top: 2.5rem;
 }
 
 .contSect4 {
-  padding: 12rem 2.5rem;
+  padding-top: 10rem;
   text-align: center;
   margin-left: 0px;
+}
+
+#parSection4 {
+  margin-top: 2.5rem;
 }
 
 .aSection4 {
@@ -81,7 +90,7 @@
 }
 
 .section5 {
-  margin: 2.5rem 2.5rem 0 2.5rem;
+  margin-top: 2.5rem;
 }
 
 .contSection5 {

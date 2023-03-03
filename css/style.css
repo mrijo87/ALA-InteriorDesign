@@ -296,7 +296,7 @@ p {
 }
 
 .section1 {
-  margin: 2.5rem 2.5rem 0 2.5rem;
+  margin-top: 2.5rem;
   min-height: 25rem;
 }
 
@@ -309,12 +309,16 @@ p {
 }
 
 .section2 {
-  margin: 2.5rem 2.5rem 0 2.5rem;
+  margin-top: 2.5rem;
   overflow: hidden;
 }
 
 .contSection2 {
   padding-top: 2.5rem;
+}
+
+#parSection2 {
+  margin-top: 2.5rem;
 }
 
 .section2_image {
@@ -327,7 +331,7 @@ p {
 }
 
 .section3 {
-  margin: 2.5rem;
+  margin-top: 2.5rem;
 }
 
 .contSection3 {
@@ -352,12 +356,17 @@ p {
   background-size: cover;
   height: 70vh;
   overflow: hidden;
+  margin-top: 2.5rem;
 }
 
 .contSect4 {
-  padding: 12rem 2.5rem;
+  padding-top: 10rem;
   text-align: center;
   margin-left: 0px;
+}
+
+#parSection4 {
+  margin-top: 2.5rem;
 }
 
 .aSection4 {
@@ -365,7 +374,7 @@ p {
 }
 
 .section5 {
-  margin: 2.5rem 2.5rem 0 2.5rem;
+  margin-top: 2.5rem;
 }
 
 .contSection5 {
@@ -515,6 +524,13 @@ ul li a:hover {
   .mainContent-Contact {
     margin: 4rem 1rem;
   }
+  .contSect4 {
+    margin-top: 2.5rem;
+  }
+  .contSect4 {
+    text-align: left;
+    padding-right: 18rem;
+  }
   .section5_image {
     display: flex;
     justify-content: center;
@@ -546,6 +562,13 @@ ul li a:hover {
   }
   .mainContent-Contact {
     margin: 4rem 16rem;
+  }
+  .contSect4 {
+    margin-top: 2.5rem;
+  }
+  .contSect4 {
+    text-align: left;
+    padding-right: 45rem;
   }
 }
 
